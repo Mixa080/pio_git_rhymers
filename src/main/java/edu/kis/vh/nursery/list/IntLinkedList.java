@@ -69,6 +69,7 @@ public class IntLinkedList {
  class Node {
 
     private int value;
+     // TODO: usunac nieuzywana zmienna 'i'
     private Node prev, next;
     public int getValue() { return value; }
 

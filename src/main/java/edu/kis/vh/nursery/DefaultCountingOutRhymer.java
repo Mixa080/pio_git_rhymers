@@ -6,7 +6,7 @@ private static final int STACK_CAPACITY = 12;
     private static final int EMPTY = -1;
 
     private final int[] numbers = new int[STACK_CAPACITY];
-
+    // TODO: hermetyzacja zlamana - zmienna total powinna byc private (i miec getter/setter)
     public int total = EMPTY;
 
 

@@ -15,7 +15,7 @@ class RhymersDemo {
     private static void testRhymers(RhymersFactory factory) {
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
                 factory.getFIFORhymer(), factory.getHanoiRhymer()};
-
+            // TODO: usunac magiczne liczby (15, 3, 20) i zastapic je stalymi (np. static final int)
         for (int i = 1; i < 15; i++)
             for (int j = 0; j < 3; j++)
                 rhymers[j].countIn(i);
